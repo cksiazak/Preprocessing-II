@@ -177,10 +177,24 @@ header {
   padding: 25px 6.75%;
   border-bottom: 2px dashed silver;
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    width: 100%;
+    padding: 25px 6.75% 10px;
+  }
+}
 header nav {
   display: inherit;
   justify-content: space-evenly;
   width: 42%;
+}
+@media (max-width: 500px) {
+  header nav {
+    padding-top: 20px;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 header nav a {
   text-decoration: none;

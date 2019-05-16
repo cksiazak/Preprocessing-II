@@ -8,10 +8,22 @@ header {
     padding: 25px 6.75%;
     border-bottom: 2px dashed silver;
 
+    @media @mobile {
+        flex-direction: column;
+        width: 100%;
+        padding: 25px 6.75% 10px;
+    }
+
     nav {
         display: inherit;
         justify-content: space-evenly;
         width: 42%;
+
+        @media @mobile {
+            padding-top: 20px;
+            justify-content: space-between;
+            width: 100%;
+        }
 
         a {
             text-decoration: none;
