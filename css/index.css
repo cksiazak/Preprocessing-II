@@ -170,12 +170,12 @@ img {
   margin: 0 auto;
 }
 header {
-  width: 125%;
+  width: 68%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 100px;
-  margin-left: -100px;
+  padding: 25px 6.75%;
   border-bottom: 2px dashed silver;
 }
 header nav {
